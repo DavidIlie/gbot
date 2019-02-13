@@ -9,4 +9,5 @@ How to run the bot:
 
 3. Open Terminal, Or cmd or whatever.
 4. Go to your bot directory.
-5. Then type in there <code>node index.js</code>
+5. First run <code>npm i</code>
+6. Then type in there <code>node index.js</code>
