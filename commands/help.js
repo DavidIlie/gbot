@@ -19,7 +19,8 @@ module.exports.run = async (bot, message, args) => {
     .addField("!serverinfo", "Displays server information")
     .addField("!tempmute", "Mutes a person for a selected amount of time. Usage: !tempmute <@username> <time> (need the manage messages permission)")
     .addField("!userinfo", "Displayed user information on the specified user. Usage: !userinfo <@username>")
-    .addField("!online", "Shows the name of the server and the total list of members");
+    .addField("!online", "Shows the name of the server and the total list of members")
+    .addField("!random", "Picks a random number. Usage !random <number> <number>");
 
     message.channel.send(embed);
 
